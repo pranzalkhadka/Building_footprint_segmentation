@@ -1,0 +1,8 @@
+albumentations
+numpy
+matplotlib
+skimage
+scikit-learn
+tensorflow
+cv2
+keras
