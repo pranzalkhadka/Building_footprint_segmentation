@@ -1,30 +1,3 @@
-# from fastapi import FastAPI, File, UploadFile
-# from fastapi.middleware.cors import CORSMiddleware
-# import keras
-# import io
-# from fastapi.responses import StreamingResponse
-# import tensorflow as tf
-# import PIL
-
-# image_height = 256
-# image_width = 256
-
-# model = tf.keras.models.load_model('/home/pranjal/Downloads/Building_footprint_segmentation/model1.keras')
-
-# app = FastAPI()
-
-# @app.get("/")
-# async def process_file():
-#     return {"filename": "file"}
-
-
-
-# @app.post("/predict")
-# async def process_image(file: UploadFile = File(...)):
-#     # Your image processing logic here
-#     return {"filename": file.filename}
-
-
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 import keras
@@ -63,4 +36,33 @@ async def process_image(file: UploadFile = File(...)):
     predicted_mask_binary = np.where(predicted_mask > 0.5, 1, 0)
 
     return StreamingResponse(io.BytesIO(predicted_mask_binary), media_type="image/png")
+
+
+
+
+# from fastapi import FastAPI, File, UploadFile
+# from fastapi.middleware.cors import CORSMiddleware
+# import keras
+# import io
+# from fastapi.responses import StreamingResponse
+# import tensorflow as tf
+# import PIL
+
+# image_height = 256
+# image_width = 256
+
+# model = tf.keras.models.load_model('/home/pranjal/Downloads/Building_footprint_segmentation/model1.keras')
+
+# app = FastAPI()
+
+# @app.get("/")
+# async def process_file():
+#     return {"filename": "file"}
+
+
+
+# @app.post("/predict")
+# async def process_image(file: UploadFile = File(...)):
+#     # Your image processing logic here
+#     return {"filename": file.filename}
 
