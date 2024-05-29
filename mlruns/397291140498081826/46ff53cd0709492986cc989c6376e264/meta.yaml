@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pranjal/Downloads/Building_footprint_segmentation/mlruns/397291140498081826/46ff53cd0709492986cc989c6376e264/artifacts
+end_time: 1716978634217
+entry_point_name: ''
+experiment_id: '397291140498081826'
+lifecycle_stage: active
+run_id: 46ff53cd0709492986cc989c6376e264
+run_name: beautiful-roo-580
+run_uuid: 46ff53cd0709492986cc989c6376e264
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716978617600
+status: 3
+tags: []
+user_id: pranjal

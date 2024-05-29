@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pranjal/Downloads/Building_footprint_segmentation/mlruns/397291140498081826/72cbe39f658a4122981a3fb888c7513e/artifacts
+end_time: 1716975301230
+entry_point_name: ''
+experiment_id: '397291140498081826'
+lifecycle_stage: active
+run_id: 72cbe39f658a4122981a3fb888c7513e
+run_name: resilient-ray-725
+run_uuid: 72cbe39f658a4122981a3fb888c7513e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716975286547
+status: 3
+tags: []
+user_id: pranjal
